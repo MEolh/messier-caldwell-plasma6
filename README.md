@@ -24,14 +24,24 @@ A KDE Plasma 6 widget that shows in real time which **Messier** and **Caldwell**
 - **Internet connection** required for:
   - Location search (OpenStreetMap/Nominatim)
   - DSS object images (Aladin/CDS)
-  
+
   The catalog data and altitude calculations work fully offline — only the location search and images need network access.
 
 ## Installation
 
+### From KDE Store (.plasmoid)
+
 ```bash
 tar -xzf messier-widget-plasma6.tar.gz
 cd org.kde.plasma.messier_caldwell
+bash install.sh
+```
+
+### From GitHub
+
+```bash
+git clone https://github.com/MEolh/messier-caldwell-plasma6.git
+cd messier-caldwell-plasma6
 bash install.sh
 ```
 
@@ -82,9 +92,19 @@ Widget per KDE Plasma 6 che mostra in tempo reale quali oggetti del catalogo **M
 
 ## Installazione
 
+### Da KDE Store (.plasmoid)
+
 ```bash
 tar -xzf messier-widget-plasma6.tar.gz
 cd org.kde.plasma.messier_caldwell
+bash install.sh
+```
+
+### Da GitHub
+
+```bash
+git clone https://github.com/MEolh/messier-caldwell-plasma6.git
+cd messier-caldwell-plasma6
 bash install.sh
 ```
 

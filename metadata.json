@@ -12,7 +12,7 @@
         "Id": "org.kde.plasma.messier_caldwell",
         "License": "GPL-2.0+",
         "Name": "Messier & Caldwell Visible Objects",
-        "Version": "1.0.0",
+        "Version": "1.0.1",
         "Website": "https://github.com/MEolh"
     },
     "X-Plasma-API-Minimum-Version": "6.0"

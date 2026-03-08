@@ -1,0 +1,64 @@
+# Messier & Caldwell Visible Objects Widget
+# Language: it
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "Visible Objects"
+msgstr "Oggetti Visibili"
+
+msgid "Catalog:"
+msgstr "Catalogo:"
+
+msgid "All"
+msgstr "Tutti"
+
+msgid "Min alt:"
+msgstr "Min alt:"
+
+msgid "Object"
+msgstr "Oggetto"
+
+msgid "T"
+msgstr "T"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Const."
+msgstr "Cost."
+
+msgid "No visible objects above %1°"
+msgstr "Nessun oggetto visibile\nsopra %1°"
+
+msgid "Type:"
+msgstr "Tipo:"
+
+msgid "Constellation:"
+msgstr "Costellazione:"
+
+msgid "Altitude:"
+msgstr "Altezza:"
+
+msgid "Magnitude:"
+msgstr "Magnitudine:"
+
+msgid "Azimuth:"
+msgstr "Azimuth:"
+
+msgid "App. size:"
+msgstr "Dim. app.:"
+
+msgid "DSS image · Adaptive FOV"
+msgstr "Immagine DSS · FOV adattivo"
+
+msgid "Constellation: %1"
+msgstr "Costellazione: %1"
+
+msgid "Size: %1'"
+msgstr "Estensione: %1'"
+
+msgid "Magnitude: %1"
+msgstr "Magnitudine: %1"

@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "michele.machetti89@gmail.com",
+                "Name": "Michele Machetti"
+            }
+        ],
+        "Category": "Astronomy",
+        "Description": "Shows Messier and Caldwell deep-sky objects currently visible above the horizon, with real-time altitude calculation and DSS images.",
+        "Icon": "astronomy",
+        "Id": "org.kde.plasma.messier_caldwell",
+        "License": "GPL-2.0+",
+        "Name": "Messier & Caldwell Visible Objects",
+        "Version": "1.0.0",
+        "Website": "https://github.com/MEolh"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

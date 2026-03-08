@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="locationName" type="String">
+            <label>Nome località</label>
+            <default>Roselle, Grosseto</default>
+        </entry>
+        <entry name="obsLat" type="Double">
+            <label>Latitudine osservatore</label>
+            <default>42.75</default>
+        </entry>
+        <entry name="obsLon" type="Double">
+            <label>Longitudine osservatore</label>
+            <default>11.15</default>
+        </entry>
+        <entry name="minAlt" type="Double">
+            <label>Altezza minima oggetti (gradi)</label>
+            <default>15.0</default>
+        </entry>
+    </group>
+</kcfg>

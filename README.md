@@ -50,7 +50,7 @@ Add `contents/locale/<lang>/LC_MESSAGES/plasma_org.kde.plasma.messier_caldwell.p
 - Astronomical algorithms: Jean Meeus, *Astronomical Algorithms*
 - DSS images: [Aladin / CDS Strasbourg](https://aladin.cds.unistra.fr)
 - Location search: [Nominatim / OpenStreetMap](https://nominatim.openstreetmap.org)
-- Developed by Michele Machetti — [AMSA Osservatorio Astronomico e Meteorologico di Roselle](https://www.amsa-astronomia.it)
+- Developed by Michele Machetti — [AMSA Osservatorio Astronomico e Meteorologico di Roselle](https://www.amsagrosseto.com/)
 
 ---
 

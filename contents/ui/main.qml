@@ -169,15 +169,14 @@ PlasmoidItem {
     }
 
     Component.onCompleted: {
-        // Carica valori salvati, con fallback ai default
-        root._lat = Plasmoid.configuration.obsLat  || 42.75;
-        root._lon = Plasmoid.configuration.obsLon  || 11.15;
-        root._alt = Plasmoid.configuration.minAlt  || 15.0;
-        // Scrivi i default se erano 0
-        if (Plasmoid.configuration.minAlt === 0) {
-            Plasmoid.configuration.minAlt = 15;
-            root._alt = 15;
-        }
+        // Usa il valore salvato se esiste (!== 0), altrimenti usa il default
+        root._lat = (Plasmoid.configuration.obsLat !== 0) ? Plasmoid.configuration.obsLat : 42.75;
+        root._lon = (Plasmoid.configuration.obsLon !== 0) ? Plasmoid.configuration.obsLon : 11.15;
+        root._alt = (Plasmoid.configuration.minAlt !== 0) ? Plasmoid.configuration.minAlt : 15.0;
+        // Salva i default se è la prima volta
+        if (Plasmoid.configuration.obsLat === 0) Plasmoid.configuration.obsLat = 42.75;
+        if (Plasmoid.configuration.obsLon === 0) Plasmoid.configuration.obsLon = 11.15;
+        if (Plasmoid.configuration.minAlt === 0) Plasmoid.configuration.minAlt = 15;
         minAltInput.text = root._alt.toFixed(0);
         refreshObjects();
     }
